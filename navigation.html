@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+            .navbar{
+                background-color: rgb(177, 226, 113);
+                border-radius: 10px;
+            }
+            .navbar ul{
+                overflow: auto;
+            }
+            .navbar li{
+                float: left;
+                list-style: none;
+                /* padding: 3px 3px; */
+                margin: 3px 3px;
+            }
+            .navbar li a {
+                 text-decoration: none;
+                padding: 3px 3px;
+            }
+            .navbar li a:hover{
+                color: green;
+                background-color:rgb(161, 235, 161);
+            }
+            .serch{
+                float:  right;
+                color: white;
+                padding: 8px 104px;
+            }
+            .navbar input{
+                border: 2px solid #000000;
+                border-radius: 5px;
+                padding : 0px 6px;
+            }
+            
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href = "#">Home</a></li>
+                <li><a href = "#">Menu</a></li>
+                <li><a href = "#">Services</a></li>
+                <li><a href = "#">Contact us</a></li>
+                <div class="serch">
+                    <!-- Serch here -->
+                    <!-- <input type="Serch" placeholder="Search item here"> -->
+                    <input type="text"  name  = "serch" placeholder="Serch here ">
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
